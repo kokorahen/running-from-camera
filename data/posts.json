@@ -1,5 +1,27 @@
 [
   {
+    "eid": 2390,
+    "number": 239,
+    "title": "running from camera in Japan #239",
+    "date": "2026-06-13",
+    "location": "ラオス・バンビエン",
+    "image": "images/0239_1.jpg",
+    "images": [
+      "images/0239_1.jpg"
+    ]
+  },
+  {
+    "eid": 2380,
+    "number": 238,
+    "title": "running from camera in Japan #238",
+    "date": "2026-06-13",
+    "location": "ラオス・ビエンチャン駅",
+    "image": "images/0238_1.jpg",
+    "images": [
+      "images/0238_1.jpg"
+    ]
+  },
+  {
     "eid": 259,
     "number": 237,
     "title": "running from camera in Japan #237",
