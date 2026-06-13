@@ -78,17 +78,6 @@
     ]
   },
   {
-    "eid": 244,
-    "number": 231,
-    "title": "running from camera in Japan #231",
-    "date": "2023-08-10",
-    "location": "山形県 月山湖",
-    "image": "images/0231_1.jpg",
-    "images": [
-      "images/0231_1.jpg"
-    ]
-  },
-  {
     "eid": 252,
     "number": 230,
     "title": "running from camera in Japan #230",
@@ -97,17 +86,6 @@
     "image": "images/0230_1.png",
     "images": [
       "images/0230_1.png"
-    ]
-  },
-  {
-    "eid": 243,
-    "number": 230,
-    "title": "running from camera in Japan #230",
-    "date": "2023-06-09",
-    "location": "カトマンズ ネパール",
-    "image": "images/0230_1.jpg",
-    "images": [
-      "images/0230_1.jpg"
     ]
   },
   {
@@ -122,17 +100,6 @@
     ]
   },
   {
-    "eid": 242,
-    "number": 229,
-    "title": "running from camera in Japan #229",
-    "date": "2023-06-09",
-    "location": "タージ・マハル インド",
-    "image": "images/0229_1.jpg",
-    "images": [
-      "images/0229_1.jpg"
-    ]
-  },
-  {
     "eid": 250,
     "number": 228,
     "title": "running from camera in Japan #228",
@@ -141,17 +108,6 @@
     "image": "images/0228_1.png",
     "images": [
       "images/0228_1.png"
-    ]
-  },
-  {
-    "eid": 241,
-    "number": 228,
-    "title": "running from camera in Japan #228",
-    "date": "2023-04-19",
-    "location": "みうらじゅんFESマイブームの全貌展＠所沢",
-    "image": "images/0228_1.jpg",
-    "images": [
-      "images/0228_1.jpg"
     ]
   },
   {
@@ -166,17 +122,6 @@
     ]
   },
   {
-    "eid": 240,
-    "number": 227,
-    "title": "running from camera in Japan #227",
-    "date": "2022-10-13",
-    "location": "松山空港",
-    "image": "images/0227_1.jpg",
-    "images": [
-      "images/0227_1.jpg"
-    ]
-  },
-  {
     "eid": 248,
     "number": 226,
     "title": "running from camera in Japan #226",
@@ -188,33 +133,11 @@
     ]
   },
   {
-    "eid": 239,
-    "number": 226,
-    "title": "running from camera in Japan #226",
-    "date": "2022-10-07",
-    "location": "南海フェリー 徳島港",
-    "image": "images/0226_1.jpg",
-    "images": [
-      "images/0226_1.jpg"
-    ]
-  },
-  {
     "eid": 247,
     "number": 225,
     "title": "running from camera in Japan #225",
     "date": "2023-10-02",
     "location": "和歌山 白浜",
-    "image": "images/0225_1.jpg",
-    "images": [
-      "images/0225_1.jpg"
-    ]
-  },
-  {
-    "eid": 238,
-    "number": 225,
-    "title": "running from camera in Japan #225",
-    "date": "2022-10-07",
-    "location": "石川県金沢城",
     "image": "images/0225_1.jpg",
     "images": [
       "images/0225_1.jpg"
@@ -232,33 +155,11 @@
     ]
   },
   {
-    "eid": 237,
-    "number": 224,
-    "title": "running from camera in Japan #224",
-    "date": "2022-09-01",
-    "location": "徳島県阿波おどり会館前",
-    "image": "images/0224_1.jpg",
-    "images": [
-      "images/0224_1.jpg"
-    ]
-  },
-  {
     "eid": 245,
     "number": 223,
     "title": "running from camera in Japan #223",
     "date": "2023-08-30",
     "location": "島根県宍道湖",
-    "image": "images/0223_1.jpg",
-    "images": [
-      "images/0223_1.jpg"
-    ]
-  },
-  {
-    "eid": 236,
-    "number": 223,
-    "title": "running from camera in Japan #223",
-    "date": "2022-08-26",
-    "location": "鹿児島県 指宿海岸",
     "image": "images/0223_1.jpg",
     "images": [
       "images/0223_1.jpg"
@@ -662,105 +563,6 @@
     "images": [
       "images/0186_1.jpg",
       "images/0186_2.jpg"
-    ]
-  },
-  {
-    "eid": 10,
-    "number": 186,
-    "title": "running from camera in Japan #186",
-    "date": "2007-11-27",
-    "location": "",
-    "image": "images/0186_1.jpg",
-    "images": [
-      "images/0186_1.jpg"
-    ]
-  },
-  {
-    "eid": 9,
-    "number": 186,
-    "title": "running from camera in Japan #186",
-    "date": "2007-11-27",
-    "location": "",
-    "image": "images/0186_1.jpg",
-    "images": [
-      "images/0186_1.jpg"
-    ]
-  },
-  {
-    "eid": 8,
-    "number": 186,
-    "title": "running from camera in Japan #186",
-    "date": "2007-11-27",
-    "location": "",
-    "image": "images/0186_1.jpg",
-    "images": [
-      "images/0186_1.jpg"
-    ]
-  },
-  {
-    "eid": 7,
-    "number": 186,
-    "title": "running from camera in Japan #186",
-    "date": "2007-11-27",
-    "location": "",
-    "image": "images/0186_1.jpg",
-    "images": [
-      "images/0186_1.jpg"
-    ]
-  },
-  {
-    "eid": 6,
-    "number": 186,
-    "title": "running from camera in Japan #186",
-    "date": "2007-11-27",
-    "location": "",
-    "image": "images/0186_1.jpg",
-    "images": [
-      "images/0186_1.jpg"
-    ]
-  },
-  {
-    "eid": 5,
-    "number": 186,
-    "title": "running from camera in Japan #186",
-    "date": "2007-11-27",
-    "location": "",
-    "image": "images/0186_1.jpg",
-    "images": [
-      "images/0186_1.jpg"
-    ]
-  },
-  {
-    "eid": 4,
-    "number": 186,
-    "title": "running from camera in Japan #186",
-    "date": "2007-04-28",
-    "location": "",
-    "image": "images/0186_1.jpg",
-    "images": [
-      "images/0186_1.jpg"
-    ]
-  },
-  {
-    "eid": 3,
-    "number": 186,
-    "title": "running from camera in Japan #186",
-    "date": "2007-04-28",
-    "location": "",
-    "image": "images/0186_1.jpg",
-    "images": [
-      "images/0186_1.jpg"
-    ]
-  },
-  {
-    "eid": 2,
-    "number": 186,
-    "title": "running from camera in Japan #186",
-    "date": "2007-04-26",
-    "location": "",
-    "image": "images/0186_1.jpg",
-    "images": [
-      "images/0186_1.jpg"
     ]
   },
   {
@@ -1536,17 +1338,6 @@
     ]
   },
   {
-    "eid": 124,
-    "number": 116,
-    "title": "running from camera in Japan #116",
-    "date": "2009-12-01",
-    "location": "",
-    "image": "images/0116_1.jpg",
-    "images": [
-      "images/0116_1.jpg"
-    ]
-  },
-  {
     "eid": 123,
     "number": 115,
     "title": "running from camera in Japan #115",
@@ -2024,17 +1815,6 @@
     "number": 72,
     "title": "running from camera in Japan #72",
     "date": "2008-06-08",
-    "location": "",
-    "image": "images/0072_1.jpg",
-    "images": [
-      "images/0072_1.jpg"
-    ]
-  },
-  {
-    "eid": 77,
-    "number": 72,
-    "title": "running from camera in Japan #72",
-    "date": "2008-06-01",
     "location": "",
     "image": "images/0072_1.jpg",
     "images": [
@@ -2720,14 +2500,102 @@
     ]
   },
   {
-    "eid": 11,
-    "number": 11,
-    "title": "running from camera in Japan #11",
-    "date": "2007-11-28",
+    "eid": 10,
+    "number": null,
+    "title": "running from camera in Japan",
+    "date": "2007-11-27",
     "location": "",
-    "image": "images/0011_1.jpg",
+    "image": "images/0186_1.jpg",
     "images": [
-      "images/0011_1.jpg"
+      "images/0186_1.jpg"
+    ]
+  },
+  {
+    "eid": 9,
+    "number": null,
+    "title": "running from camera in Japan",
+    "date": "2007-11-27",
+    "location": "",
+    "image": "images/0186_1.jpg",
+    "images": [
+      "images/0186_1.jpg"
+    ]
+  },
+  {
+    "eid": 8,
+    "number": null,
+    "title": "running from camera in Japan",
+    "date": "2007-11-27",
+    "location": "",
+    "image": "images/0186_1.jpg",
+    "images": [
+      "images/0186_1.jpg"
+    ]
+  },
+  {
+    "eid": 7,
+    "number": null,
+    "title": "running from camera in Japan",
+    "date": "2007-11-27",
+    "location": "",
+    "image": "images/0186_1.jpg",
+    "images": [
+      "images/0186_1.jpg"
+    ]
+  },
+  {
+    "eid": 6,
+    "number": null,
+    "title": "running from camera in Japan",
+    "date": "2007-11-27",
+    "location": "",
+    "image": "images/0186_1.jpg",
+    "images": [
+      "images/0186_1.jpg"
+    ]
+  },
+  {
+    "eid": 5,
+    "number": null,
+    "title": "running from camera in Japan",
+    "date": "2007-11-27",
+    "location": "",
+    "image": "images/0186_1.jpg",
+    "images": [
+      "images/0186_1.jpg"
+    ]
+  },
+  {
+    "eid": 4,
+    "number": null,
+    "title": "running from camera in Japan",
+    "date": "2007-04-28",
+    "location": "",
+    "image": "images/0186_1.jpg",
+    "images": [
+      "images/0186_1.jpg"
+    ]
+  },
+  {
+    "eid": 3,
+    "number": null,
+    "title": "running from camera in Japan",
+    "date": "2007-04-28",
+    "location": "",
+    "image": "images/0186_1.jpg",
+    "images": [
+      "images/0186_1.jpg"
+    ]
+  },
+  {
+    "eid": 2,
+    "number": null,
+    "title": "running from camera in Japan",
+    "date": "2007-04-26",
+    "location": "",
+    "image": "images/0186_1.jpg",
+    "images": [
+      "images/0186_1.jpg"
     ]
   }
 ]
