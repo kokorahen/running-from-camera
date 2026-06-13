@@ -26,18 +26,37 @@
       loading.classList.add('visible');
     });
 
+  // サイズパターン（4列グリッド用、grid-auto-flow: dense で隙間補完）
+  const sizePattern = [
+    'wide tall', // 2×2
+    '',
+    'tall',      // 1×2
+    'wide',      // 2×1
+    '',
+    '',
+    'wide',      // 2×1
+    '',
+    'tall',      // 1×2
+  ];
+
   function renderGrid(items) {
     grid.innerHTML = '';
     items.forEach((post, i) => {
-      const isFeatured = (i + 1) % 7 === 0;
-      const card = createCard(post, i, isFeatured);
+      const isHero     = i === 0;
+      const isFeatured = !isHero && (i + 1) % 9 === 0;
+      const sizeClass  = isHero || isFeatured ? '' : sizePattern[(i - 1) % sizePattern.length];
+      const card = createCard(post, i, isHero, isFeatured, sizeClass);
       grid.appendChild(card);
     });
   }
 
-  function createCard(post, index, featured) {
+  function createCard(post, index, hero, featured, sizeClass) {
     const card = document.createElement('div');
-    card.className = 'photo-card' + (featured ? ' featured' : '');
+    let cls = 'photo-card';
+    if (hero)     cls += ' hero';
+    else if (featured) cls += ' featured';
+    else if (sizeClass) cls += ' ' + sizeClass;
+    card.className = cls;
     card.dataset.index = index;
 
     const img = document.createElement('img');

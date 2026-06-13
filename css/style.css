@@ -77,23 +77,29 @@ body {
 /* ===== Photo Grid ===== */
 .photo-grid {
   padding: var(--gap);
-  columns: 3 360px;
-  column-gap: var(--gap);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 260px;
+  gap: var(--gap);
+  grid-auto-flow: dense;
 }
 
 .photo-card {
-  break-inside: avoid;
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  margin-bottom: var(--gap);
   background: var(--surface);
 }
+
+/* サイズバリエーション */
+.photo-card.wide  { grid-column: span 2; }
+.photo-card.tall  { grid-row: span 2; }
 
 .photo-card img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   transition: transform 0.5s ease, filter 0.3s ease;
   filter: brightness(0.92);
 }
@@ -142,17 +148,30 @@ body {
   letter-spacing: 0.08em;
 }
 
-/* ===== Featured cards (every 7th, full width) ===== */
-.photo-card.featured {
-  column-span: all;
-  max-height: 70vh;
-  overflow: hidden;
+/* ===== Hero: 最新投稿（先頭1枚） ===== */
+.photo-card.hero {
+  grid-column: 1 / -1;
+  grid-row: span 2;
+  height: 70vh;
 }
 
-.photo-card.featured img {
-  width: 100%;
-  height: 70vh;
-  object-fit: cover;
+.photo-card.hero img {
+  height: 100%;
+}
+
+.photo-card.hero .photo-card-overlay {
+  opacity: 1;
+  background: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 40%);
+}
+
+.photo-card.hero .card-location {
+  font-size: 28px;
+}
+
+/* ===== Featured cards (every 9th) ===== */
+.photo-card.featured {
+  grid-column: span 2;
+  grid-row: span 2;
 }
 
 .photo-card.featured .photo-card-overlay {
@@ -286,32 +305,22 @@ body {
 /* ===== Responsive ===== */
 @media (max-width: 600px) {
   .photo-grid {
-    columns: 1;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 180px;
   }
+
+  .photo-card.wide  { grid-column: span 2; }
+  .photo-card.tall  { grid-row: span 1; }
+  .photo-card.hero  { height: 50vh; }
+  .photo-card.hero .card-location { font-size: 18px; }
 
   .header-inner {
     flex-direction: column;
     gap: 4px;
   }
 
-  .site-subtitle {
-    display: none;
-  }
-
   .site-rule {
     font-size: 10px;
-  }
-
-  .photo-card.featured {
-    max-height: 50vh;
-  }
-
-  .photo-card.featured img {
-    height: 50vh;
-  }
-
-  .photo-card.featured .card-location {
-    font-size: 20px;
   }
 
   .lightbox-nav.prev { left: 4px; }
@@ -320,6 +329,7 @@ body {
 
 @media (min-width: 1400px) {
   .photo-grid {
-    columns: 4 320px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 280px;
   }
 }
