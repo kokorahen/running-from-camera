@@ -346,8 +346,23 @@ body {
     font-size: 10px;
   }
 
-  .lightbox-nav.prev { left: 4px; }
-  .lightbox-nav.next { right: 4px; }
+  /* モバイル: ライトボックスのナビを下部に移動 */
+  .lightbox-nav {
+    top: auto;
+    bottom: 80px;
+    transform: none;
+    width: 56px;
+    height: 56px;
+    background: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.4);
+    font-size: 22px;
+  }
+  .lightbox-nav.prev { left: 24px; }
+  .lightbox-nav.next { right: 24px; }
+
+  .lightbox-content img {
+    max-height: 70vh;
+  }
 }
 
 @media (min-width: 1400px) {

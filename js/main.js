@@ -125,6 +125,17 @@
     if (e.key === 'ArrowRight') navigate(1);
   });
 
+  // スワイプ操作（モバイル）
+  let touchStartX = 0;
+  lightbox.addEventListener('touchstart', (e) => {
+    touchStartX = e.touches[0].clientX;
+  }, { passive: true });
+
+  lightbox.addEventListener('touchend', (e) => {
+    const diff = touchStartX - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 50) navigate(diff > 0 ? 1 : -1);
+  }, { passive: true });
+
   function formatDate(dateStr) {
     if (!dateStr) return '';
     const d = new Date(dateStr);
