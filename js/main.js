@@ -48,8 +48,9 @@
     const overlay = document.createElement('div');
     overlay.className = 'photo-card-overlay';
 
+    const numLabel = post.number ? `#${String(post.number).padStart(3, '0')}` : '';
     overlay.innerHTML = `
-      <div class="card-number">#${String(post.number).padStart(3, '0')}</div>
+      <div class="card-number">${numLabel}</div>
       <div class="card-location">${post.location || ''}</div>
       <div class="card-date">${formatDate(post.date)}</div>
     `;
@@ -78,7 +79,7 @@
     const post = posts[currentIndex];
     lightboxImg.src = post.image;
     lightboxImg.alt = post.location || post.title;
-    lightboxNumber.textContent = `#${String(post.number).padStart(3, '0')}`;
+    lightboxNumber.textContent = post.number ? `#${String(post.number).padStart(3, '0')}` : '';
     lightboxLocation.textContent = post.location || '';
     lightboxDate.textContent = formatDate(post.date);
   }
