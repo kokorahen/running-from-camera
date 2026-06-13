@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Running from Camera in Japan</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="site-title">Running from Camera<span class="in-japan"> in Japan</span></h1>
+      <p class="site-subtitle">247 frames. One country. Always running.</p>
+    </div>
+    <p class="site-rule">&#9654;&ensp;カメラのセルフタイマーを２秒にセットして出来るだけ遠くへ逃げる</p>
+  </header>
+
+  <main>
+    <div id="grid" class="photo-grid"></div>
+    <div id="loading" class="loading">Loading...</div>
+  </main>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+    <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Previous">&#8592;</button>
+    <button class="lightbox-nav next" id="lightboxNext" aria-label="Next">&#8594;</button>
+    <div class="lightbox-content">
+      <img id="lightboxImg" src="" alt="">
+      <div class="lightbox-meta">
+        <span id="lightboxNumber"></span>
+        <span id="lightboxLocation"></span>
+        <span id="lightboxDate"></span>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>&#169; runorerun &mdash; All photos taken in Japan</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
