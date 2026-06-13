@@ -10,6 +10,7 @@
   const lightboxClose = document.getElementById('lightboxClose');
   const lightboxPrev = document.getElementById('lightboxPrev');
   const lightboxNext = document.getElementById('lightboxNext');
+  const lightboxCounter = document.getElementById('lightboxCounter');
 
   let posts = [];
   let currentIndex = 0;
@@ -101,6 +102,7 @@
     lightboxNumber.textContent = post.number ? `#${String(post.number).padStart(3, '0')}` : '';
     lightboxLocation.textContent = post.location || '';
     lightboxDate.textContent = formatDate(post.date);
+    lightboxCounter.textContent = `${currentIndex + 1} / ${posts.length}`;
   }
 
   function navigate(dir) {
